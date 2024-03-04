@@ -18,14 +18,14 @@
 </head>
 
 <body class="antialiased font-bold text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900" style="font-family: Julius
-Sans One, sans-serif; font-weight: 400; font-style: normal;">
+Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;">
     <nav
         class="flex w-full justify-between items-center p-2 backdrop-blur-lg border-2 border-slate-800 fixed left-0 right-0 top-0 z-50">
         <a href="#" class="text-white text-2xl ml-4">wibu<span class="text-[#2f8cc0] italic">premium</span>.</a>
         <div id='link_navbar'
             class="sm:flex sm:flex-col sm:absolute sm:top-full sm:w-[30vw] sm:left-full sm:h-[100vh] sm:bg-slate-700 sm:border-2 sm:border-slate-800 
-                   sm:duration-300 md:translation-none md:duration-0
-                   md:relative md:inline md:w-auto md:left-0 md:right-0 md:translate-x-0 md:bg-transparent md:h-auto md:border-none">
+              sm:duration-300 transition-none md:duration-0
+              md:relative md:inline md:w-auto md:left-0 md:right-0 md:translate-x-0 md:bg-transparent md:h-auto md:border-none">
             <a href="#"
                 class=" sm:block sm:mx-1 sm:p-3 md:p-0 lg:mx-2  md:inline  text-white text-center p-1 md:text-sm lg:text-base hover:text-[#2f8cc0]">PEMBAHARUAN</a>
             <a href="#about"
@@ -39,7 +39,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal;">
         <div class="flex ">
             <form action="" class="sm:hover:w-40 md:hover:w-auto group flex bg-slate-800 rounded-full p-0 m-0 ">
                 <input type="search"
-                    class="px-[20px] text-white focus:outline-none bg-inherit sm:hidden lg:inline group-hover:block  sm:py-2 md:py-3 sm:w-24 lg:w-auto rounded-full "
+                    class="px-[20px] text-white focus:outline-none bg-inherit sm:hidden lg:inline group-hover:block sm:py-2 md:py-3 sm:w-24 lg:w-auto rounded-full "
                     placeholder="Search">
                 <a href="#" id="search" class="sm:p-2 md:p-3 rounded-xl text-white mx-5 hover:text-[#2f8cc0]"><i
                         data-feather="search"></i></a>
@@ -51,7 +51,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal;">
     <!-- Header Page-->
 
     <div class="flex relative top-20 flex-col sm:flex-row max-w-6xl container mx-auto ">
-        <div class="space-y-4 p-2 w-full sm:max-w-[20%] sm:min-w-[10rem] mx-auto">
+        <div class="space-y-4 p-2 w-full max-w-[20%] min-w-[10rem] mx-auto">
             <h2 class="lg:text-2xl sm:text-base md:text-lg">Filter by Genre</h2>
             <div id="filters-container" class="sm:text-sm md:text-base lg:text-lg space-y-2">
                 <div>
@@ -275,20 +275,28 @@ Sans One, sans-serif; font-weight: 400; font-style: normal;">
     </div>
 
     <script>
-        const navbar = document.getElementById('link_navbar');
+        const navbar = document.getElementById("link_navbar");
         function onToggleMenu(e) {
-            if (e.name === 'menu') {
-                e.name = 'close';
-                navbar.classList.toggle('sm:translation-all');
-                navbar.classList.toggle('sm:translate-x-[-30vw]');
-
+            if (e.name === "menu") {
+                e.name = "close";
+                navbar.classList.toggle("sm:translate-x-[-30vw]");
+            } else {
+                e.name = "menu";
+                navbar.classList.toggle("sm:translate-x-[-30vw]");
             }
-            else {
-                e.name = 'menu';
-                navbar.classList.toggle('sm:translation-all');
-                navbar.classList.toggle('sm:translate-x-[-30vw]');
+            if (!navbar.classList.contains("sm:transition-all")) {
+                navbar.classList.add("sm:transition-all");
             }
         }
+
+        function handleResize() {
+            var isMediumViewport = window.matchMedia("(min-width: 768px)").matches;
+
+            if (isMediumViewport) {
+                navbar.classList.remove("sm:transition-all");
+            }
+        }
+        window.addEventListener("resize", handleResize);
     </script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

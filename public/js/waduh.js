@@ -36,22 +36,22 @@ const products = [
     price: "8/10",
   },
   {
-    name: "",
+    name: "Bakuman",
     url: "https://drive.google.com/thumbnail?id=1zH9RgFzeQ3BJ6d3N7gDoyeoj4Wn0hPXE",
-    category: "games",
-    price: 499.99,
+    category: "drama",
+    price: "8.4/10",
   },
   {
-    name: "Sony Playstation 5",
+    name: "Blooming Love",
     url: "https://drive.google.com/thumbnail?id=1o-uCez3FyTqCdCCSPNQLJRqToNwitWqg",
-    category: "games",
-    price: 499.99,
+    category: "romance,school",
+    price: "7.65/10",
   },
   {
-    name: "Sony Playstation 5",
+    name: "Vinland Saga",
     url: "https://drive.google.com/thumbnail?id=14if5fSLKW5VMJESDC2pNUIwxXDICVsEJ",
-    category: "games",
-    price: 499.99,
+    category: "action,adventure,drama,shonen",
+    price: "9.65/10",
   },
 ];
 
