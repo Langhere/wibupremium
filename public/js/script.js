@@ -38,11 +38,7 @@ var swiper = new Swiper(".mySwiper", {
     },
     "@1.00": {
       slidesPerView: 2,
-      spaceBetween: 4,
-    },
-    "@1.50": {
-      slidesPerView: 3,
-      spaceBetween: 5,
+      spaceBetween: 12,
     },
   },
 });
