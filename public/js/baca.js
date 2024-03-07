@@ -1,5 +1,4 @@
 const navbar = document.getElementById("link_navbar");
-
 function onToggleMenu(e) {
   if (e.name === "menu") {
     e.name = "close";
@@ -22,26 +21,7 @@ function handleResize() {
 }
 window.addEventListener("resize", handleResize);
 
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 1,
-  spaceBetween: 2,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
-  breakpoints: {
-    "@0.00": {
-      slidesPerView: 1,
-      spaceBetween: 2,
-    },
-    "@1.00": {
-      slidesPerView: 2,
-      spaceBetween: 12,
-    },
-  },
-});
+//bagian di bawah buat animasi
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -55,3 +35,16 @@ const observer = new IntersectionObserver((entries) => {
 
 const animasi = document.querySelectorAll(".pop");
 animasi.forEach((el) => observer.observe(el));
+
+const komen = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.remove("translate-x-[-40px]");
+    } else {
+      entry.target.classList.add("translate-x-[-40px]");
+    }
+  });
+});
+
+const comment = document.querySelectorAll(".komen");
+comment.forEach((ed) => komen.observe(ed));
