@@ -1,5 +1,5 @@
 # Wibupremium
-Project WEB based Created for All Anime User and Wibu Enjoyer
+Project WEB based Created for All Manga Reader
 
 # Created
 
