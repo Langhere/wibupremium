@@ -1,5 +1,5 @@
 # Wibupremium
-Project WEB based Created for All Manga Reader
+Project WEB based Created for All Manga Readers
 
 # Created
 
