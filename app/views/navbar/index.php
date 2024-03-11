@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lo Wibu</title>
     <script src="https://unpkg.com/feather-icons"></script>
-    <link rel="stylesheet" href="../../../public/configurasi/css/style.css" />
+    <link rel="stylesheet" href="../public/configurasi/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -45,7 +45,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
     </nav>
 
 
-    <script defer src="../../../public/js/navbar.js"></script>
+    <script defer src="../public/js/navbar.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script>feather.replace()</script>
