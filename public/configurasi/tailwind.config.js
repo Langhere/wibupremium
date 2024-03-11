@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["../../app/views/**/*.html", "../js/*.js"],
+  content: ["../../app/views/**/*.html", "../../app/**/*.php", "../js/*.js", "../../public/**/*.php"],
   theme: {
     extend: {
       gridTemplateColumns: {
-        basic: "repeat(auto-fit,minmax(120px,1fr))",
+        basic: "repeat(auto-fit, minmax(120px, 1fr))",
       },
     },
   },
