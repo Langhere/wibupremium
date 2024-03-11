@@ -1,5 +1,3 @@
-<?php
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +8,7 @@
   <title>Lo Wibu</title>
   <script src="https://unpkg.com/feather-icons"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="../../../public/configurasi/css/style.css" />
+  <link rel="stylesheet" href="../public/configurasi/css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
@@ -25,25 +23,25 @@
       <div class="swiper-wrapper slider relative grid grid-flow-col my-4">
         <div class="swiper-slide ">
           <a href="../baca/index.html" class="card1">
-            <img class="hover:translate-y-[-6px] hover:transition-all rounded-lg" id="slide2" src="../slider1.jpg"
+            <img class="hover:translate-y-[-6px] hover:transition-all rounded-lg" id="slide2" src="../app/views/slider1.jpg"
               alt="">
           </a>
         </div>
         <div class="swiper-slide">
           <a href="../baca/index.html" class="card1">
-            <img class="hover:translate-y-[-6px] hover:transition-all rounded-lg" id="slide2" src="../slider1.jpg"
+            <img class="hover:translate-y-[-6px] hover:transition-all rounded-lg" id="slide2" src="../app/views/slider1.jpg"
               alt="">
           </a>
         </div>
         <div class="swiper-slide">
           <a href="../baca/index.html" class="card1">
-            <img class="hover:translate-y-[-6px] hover:transition-all rounded-lg" id="slide2" src="../slider1.jpg"
+            <img class="hover:translate-y-[-6px] hover:transition-all rounded-lg" id="slide2" src="../app/views/slider1.jpg"
               alt="">
           </a>
         </div>
         <div class="swiper-slide">
           <a href="../baca/index.html" class="card1">
-            <img class="hover:translate-y-[-6px] hover:transition-all rounded-lg" id="slide2" src="../slider1.jpg"
+            <img class="hover:translate-y-[-6px] hover:transition-all rounded-lg" id="slide2" src="../app/views/slider1.jpg"
               alt="">
           </a>
         </div>
@@ -55,7 +53,7 @@
 
 
   <!--Bagian list manga-->
-  <div class="flex relative top-24 md:flex-row flex-col md:space-x-10 md:mr-5 ">
+  <div class="flex relative top-24 md:flex-row flex-col space-x-10 mr-5 ">
 
     <!-- Products wrapper -->
     <div id="products-wrapper"
@@ -64,7 +62,7 @@
       <div class="pop hover:scale-105 border-none transition-all">
         <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
           href="../baca/index.html">
-          <img src="../1.jpg" alt="animek" />
+          <img src="../app/views/1.jpg" alt="animek" />
           <div
             class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
             <p>Death Note</p>
@@ -81,7 +79,7 @@
       <div class="pop hover:scale-105 border-none transition-all">
         <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
           href="../baca/index.html">
-          <img src="../1.jpg" alt="animek" />
+          <img src="../app/views/1.jpg" alt="animek" />
           <div
             class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
             <p>Death Note</p>
@@ -98,7 +96,7 @@
       <div class="pop hover:scale-105 border-none transition-all">
         <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
           href="../baca/index.html">
-          <img src="../1.jpg" alt="animek" />
+          <img src="../app/views/1.jpg" alt="animek" />
           <div
             class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
             <p>Death Note</p>
@@ -115,7 +113,7 @@
       <div class="pop hover:scale-105 border-none transition-all">
         <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
           href="../baca/index.html">
-          <img src="../1.jpg" alt="animek" />
+          <img src="../app/views/1.jpg" alt="animek" />
           <div
             class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
             <p>Death Note</p>
@@ -132,7 +130,7 @@
       <div class="pop hover:scale-105 border-none transition-all">
         <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
           href="../baca/index.html">
-          <img src="../1.jpg" alt="animek" />
+          <img src="../app/views/1.jpg" alt="animek" />
           <div
             class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
             <p>Death Note</p>
@@ -149,7 +147,7 @@
       <div class="pop hover:scale-105 border-none transition-all">
         <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
           href="../baca/index.html">
-          <img src="../1.jpg" alt="animek" />
+          <img src="../app/views/1.jpg" alt="animek" />
           <div
             class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
             <p>Death Note</p>
@@ -166,7 +164,7 @@
       <div class="pop hover:scale-105 border-none transition-all">
         <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
           href="../baca/index.html">
-          <img src="../1.jpg" alt="animek" />
+          <img src="../app/views/1.jpg" alt="animek" />
           <div
             class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
             <p>Death Note</p>
@@ -183,7 +181,7 @@
       <div class="pop hover:scale-105 border-none transition-all">
         <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
           href="../baca/index.html">
-          <img src="../1.jpg" alt="animek" />
+          <img src="../app/views/1.jpg" alt="animek" />
           <div
             class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
             <p>Death Note</p>
@@ -200,7 +198,7 @@
       <div class="pop hover:scale-105 border-none transition-all">
         <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
           href="../baca/index.html">
-          <img src="../1.jpg" alt="animek" />
+          <img src="../app/views/1.jpg" alt="animek" />
           <div
             class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
             <p>Death Note</p>
@@ -217,7 +215,7 @@
       <div class="pop hover:scale-105 border-none transition-all">
         <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
           href="../baca/index.html">
-          <img src="../1.jpg" alt="animek" />
+          <img src="../app/views/1.jpg" alt="animek" />
           <div
             class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
             <p>Death Note</p>
@@ -234,7 +232,7 @@
       <div class="pop hover:scale-105 border-none transition-all">
         <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
           href="../baca/index.html">
-          <img src="../1.jpg" alt="animek" />
+          <img src="../app/views/1.jpg" alt="animek" />
           <div
             class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
             <p>Death Note</p>
@@ -251,7 +249,7 @@
       <div class="pop hover:scale-105 border-none transition-all">
         <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
           href="../baca/index.html">
-          <img src="../1.jpg" alt="animek" />
+          <img src="../app/views/1.jpg" alt="animek" />
           <div
             class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
             <p>Death Note</p>
@@ -268,7 +266,7 @@
       <div class="pop hover:scale-105 border-none transition-all">
         <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
           href="../baca/index.html">
-          <img src="../1.jpg" alt="animek" />
+          <img src="../app/views/1.jpg" alt="animek" />
           <div
             class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
             <p>Death Note</p>
@@ -285,7 +283,7 @@
       <div class="pop hover:scale-105 border-none transition-all">
         <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
           href="../baca/index.html">
-          <img src="../1.jpg" alt="animek" />
+          <img src="../app/views/1.jpg" alt="animek" />
           <div
             class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
             <p>Death Note</p>
@@ -304,7 +302,7 @@
     <!-- BAGIAN DI BAWAH UNTUK TRENDING BAR-->
 
     <div
-      class="text-white bg-white space-y-4 w-full max-w-[70%] relative top-5 md:top-0 md:max-w-[25%] md:min-w-[15rem] mx-auto bg-gradient-to-b from-slate-700 via-slate-700 via-70% to-slate-800 to-90% "
+      class="text-white bg-white space-y-4 w-full sm:max-w-[25%] md:min-w-[15rem] mx-auto bg-gradient-to-b from-slate-700 via-slate-700 via-70% to-slate-800 to-90% "
       style="font-family: Roboto, sans-serif;font-size: 1.2rem; font-weight: 500;">
       <h2
         class="py-3 bg-gradient-to-r from-slate-800 via-slate-800 to-transparent text-center lg:text-2xl sm:text-base md:text-lg">
@@ -312,7 +310,7 @@
       <div id=" filters-container" class="sm:text-sm md:text-base lg:text-lg space-y-2">
         <a href="../baca/index.html"
           class="p-3 flex flex-row gap-3 hover:bg-gradient-to-r from-slate-900 via-slate-900 via-40% to-trasnparent">
-          <img class="w-[25%]" src="../1.jpg" alt="">
+          <img class="w-[25%]" src="../app/views/1.jpg" alt="">
           <div class="block">
             <p style="font-size:1rem;">Judul</p>
             <p
@@ -322,7 +320,7 @@
         </a>
         <a href="../baca/index.html"
           class="p-3 flex flex-row gap-3 hover:bg-gradient-to-r from-slate-900 via-slate-900 via-40% to-trasnparent">
-          <img class="w-[25%]" src="../slider1.jpg" alt="">
+          <img class="w-[25%]" src="../app/views/1.jpg" alt="">
           <div class="block">
             <p style="font-size:1rem;">Judul</p>
             <p
@@ -332,7 +330,7 @@
         </a>
         <a href="../baca/index.html"
           class="p-3 flex flex-row gap-3 hover:bg-gradient-to-r from-slate-900 via-slate-900 via-40% to-trasnparent">
-          <img class="w-[25%]" src="../slider1.jpg" alt="">
+          <img class="w-[25%]" src="../app/views/1.jpg" alt="">
           <div class="block">
             <p style="font-size:1rem;">Judul</p>
             <p
@@ -342,7 +340,7 @@
         </a>
         <a href="../baca/index.html"
           class="p-3 flex flex-row gap-3 hover:bg-gradient-to-r from-slate-900 via-slate-900 via-40% to-trasnparent">
-          <img class="w-[25%]" src="../1.jpg" alt="">
+          <img class="w-[25%]" src="" alt="">
           <div class="block">
             <p style="font-size:1rem;">Judul</p>
             <p
@@ -365,7 +363,7 @@
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <script>feather.replace()</script>
-  <script src="../../../public/js/script.js"></script>
+  <script src="../public/js/script.js"></script>
 
 </body>
 

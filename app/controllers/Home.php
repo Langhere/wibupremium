@@ -2,8 +2,8 @@
 
 class Home extends Controller {
     public function index(){
-        // $this->view('templates/header.php');
+        // $this->view('templates/header');
         $this->view('home/index');
-        // $this->view('templates/footer.php');
+        // $this->view('templates/footer');
     }
 }
