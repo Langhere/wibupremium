@@ -1,10 +1,9 @@
 <?php
 
-class Home extends Controller {
+class Modebaca extends Controller{
     public function index(){
         $this->view('templates/header');
-        $this->view('templates/navbar');
-        $this->view('home/index');
+        $this->view('mode_baca/index');
         // $this->view('templates/footer');
     }
 }

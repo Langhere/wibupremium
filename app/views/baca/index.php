@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lo Wibu</title>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <link rel="stylesheet" href="../../../public/configurasi/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-</head>
-
 <body class="antialiased font-bold text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900" style="font-family: Julius
 Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;">
 
@@ -51,7 +34,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
     <!--akhir bagian sinopsis-->
     <div class="w-full relative top-36 md:top-48 space-y-2">
         <a class="pop group hover:px-8 py-3 hover:bg-gradient-to-r from-zinc-950 via-zinc-950 to-transparent transition-all duration-300 flex flex-row px-5 "
-            style="font-family: Roboto, sans-serif;font-size: 1.2rem; font-weight:500;" href="../mode_baca/index.html">
+            style="font-family: Roboto, sans-serif;font-size: 1.2rem; font-weight:500;" href="<?=BASEURL?>/mode_baca">
             <div class="w-[20%] max-w-40"><img
                     src="https://drive.google.com/thumbnail?id=1vpdbEDfIPyLp7hR6sSqayTgKIjun5nru" alt="">
             </div>
@@ -64,7 +47,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
             </div>
         </a>
         <a class="pop group hover:px-8 py-3 hover:bg-gradient-to-r from-zinc-950 via-zinc-950 to-transparent transition-all duration-300 flex flex-row px-5 "
-            style="font-family: Roboto, sans-serif;font-size: 1.2rem; font-weight:500;" href="../mode_baca/index.html">
+            style="font-family: Roboto, sans-serif;font-size: 1.2rem; font-weight:500;" href="<?= BASEURL ?>/mode_baca">
             <div class="w-[20%] max-w-40"><img
                     src="https://drive.google.com/thumbnail?id=1vpdbEDfIPyLp7hR6sSqayTgKIjun5nru" alt="">
             </div>
@@ -223,8 +206,9 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
     <!--Akhir bagian pilihan chapter-->
 
     <!--Ini untuk footer-->
-
-    <script src="../../../public/js/baca.js"></script>
+    <script src="../public/js/baca.js"></script>
+    <script src="../public/js/script.js"></script>
+    <script defer src="../public/js/navbar.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script>feather.replace()</script>
