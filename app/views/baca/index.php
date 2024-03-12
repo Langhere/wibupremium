@@ -34,7 +34,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
     <!--akhir bagian sinopsis-->
     <div class="w-full relative top-36 md:top-48 space-y-2">
         <a class="pop group hover:px-8 py-3 hover:bg-gradient-to-r from-zinc-950 via-zinc-950 to-transparent transition-all duration-300 flex flex-row px-5 "
-            style="font-family: Roboto, sans-serif;font-size: 1.2rem; font-weight:500;" href="<?=BASEURL?>/mode_baca">
+            style="font-family: Roboto, sans-serif;font-size: 1.2rem; font-weight:500;" href="../app/views/mode_baca/">
             <div class="w-[20%] max-w-40"><img
                     src="https://drive.google.com/thumbnail?id=1vpdbEDfIPyLp7hR6sSqayTgKIjun5nru" alt="">
             </div>

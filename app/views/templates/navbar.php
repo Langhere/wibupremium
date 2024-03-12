@@ -7,10 +7,10 @@
                   md:relative md:inline md:w-auto md:left-0 md:right-0 md:translate-x-0 md:bg-transparent md:h-auto md:border-none">
             <a href="../home/index.html"
                 class=" sm:mx-1 sm:p-3 md:p-0 lg:mx-2  md:inline  text-white text-center p-1 md:text-sm lg:text-base hover:text-[#2f8cc0]">PEMBAHARUAN</a>
-            <a href="../manga/index.html"
+            <a href="<../manga/index.html>"
                 class=" sm:mx-1 sm:p-3 md:p-0 lg:mx-2 md:inline text-white text-center p-1 md:text-sm lg:text-base hover:text-[#2f8cc0] ">DAFTAR
                 MANGA</a>
-            <a href="../favorit/index.html"
+            <a href="<?= BASEURL ?>/manga"
                 class=" sm:mx-1 sm:p-3 md:p-0 lg:mx-2 md:inline text-white text-center p-1 md:text-sm lg:text-base hover:text-[#2f8cc0] ">DAFTAR
                 FAVORIT</a>
         </div>
