@@ -6,6 +6,11 @@ class App {
     protected $param = [];
     public function __construct() {
         $url = $this->parseURL();
+        // for admin
+        if (!empty($url) && $url[0] == 'admin') {
+            $this->controller = 'Admin';
+            unset($url[0]);
+        }
         // controller
         if(file_exists('../app/controllers/' . $url[0] . '.php')){
             $this->controller = $url[0];

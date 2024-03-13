@@ -123,7 +123,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
         <!--comment section-->
         <div class="komen flex flex-row relative transition-all duration-700">
             <div class="w-full p-5 bg-gradient-to-r from-zinc-900 via-zinc-900 to-transparent">
-                <p style="font-weight: 600;">Nama</p>
+                <p style="font-weight: 600;">Anonymous</p>
                 <p class="pl-5" style="font-size: 1rem; font-weight: 400;">aku gak suka sama manga ini soalnya jelek
                     banget asli dah</p>
             </div>

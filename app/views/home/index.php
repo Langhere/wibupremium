@@ -3,7 +3,7 @@
 
   <!-- Slider main container -->
   <div class="px-4 relative top-20 bg-slate-800">
-    <div class="swiper mySwiper relative max-w-full " style="--swiper-pagination-color: #fff">
+    <div class="swiper mySwiper relative max-w-full overflow-hidden " style="--swiper-pagination-color: #fff">
       <div class="swiper-wrapper slider relative grid grid-flow-col my-4">
         <div class="swiper-slide ">
           <a href="../baca/index.html" class="card1">
@@ -46,7 +46,7 @@
       <div class="pop hover:scale-105 border-none transition-all">
         <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
           href="<?= BASEURL ?>/baca">
-          <img src="../app/views/1.jpg" alt="animek" />
+          <img src="https://drive.google.com/thumbnail?id=1giKI__9b70rZR3Pmt3MT2hGBWW-f8KmJ&sz=w1000" alt="animek" />
           <div
             class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
             <p>Death Note</p>

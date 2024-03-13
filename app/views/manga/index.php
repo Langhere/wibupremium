@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lo Wibu</title>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <link rel="stylesheet" href="../../../public/configurasi/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-</head>
-
 <body class="antialiased font-bold text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900" style="font-family: Julius
 Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;">
     <!-- Header Page-->
@@ -262,7 +245,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
             <div class="pop hover:scale-105 border-none transition-all">
                 <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
                     href="../baca/index.html">
-                    <img src="../1.jpg" alt="animek" />
+                    <img src="../app/views/1.jpg" alt="animek" />
                     <div
                         class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
                         <p>Death Note</p>
@@ -279,7 +262,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
             <div class="pop hover:scale-105 border-none transition-all">
                 <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
                     href="../baca/index.html">
-                    <img src="../1.jpg" alt="animek" />
+                    <img src="../app/views/1.jpg" alt="animek" />
                     <div
                         class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
                         <p>Death Note</p>
@@ -296,7 +279,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
             <div class="pop hover:scale-105 border-none transition-all">
                 <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
                     href="../baca/index.html">
-                    <img src="../1.jpg" alt="animek" />
+                    <img src="../app/views/1.jpg" alt="animek" />
                     <div
                         class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
                         <p>Death Note</p>
@@ -313,7 +296,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
             <div class="pop hover:scale-105 border-none transition-all">
                 <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
                     href="../baca/index.html">
-                    <img src="../1.jpg" alt="animek" />
+                    <img src="../app/views/1.jpg" alt="animek" />
                     <div
                         class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
                         <p>Death Note</p>
@@ -330,7 +313,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
             <div class="pop hover:scale-105 border-none transition-all">
                 <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
                     href="../baca/index.html">
-                    <img src="../1.jpg" alt="animek" />
+                    <img src="../app/views/1.jpg" alt="animek" />
                     <div
                         class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
                         <p>Death Note</p>
@@ -347,7 +330,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
             <div class="pop hover:scale-105 border-none transition-all">
                 <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
                     href="../baca/index.html">
-                    <img src="../1.jpg" alt="animek" />
+                    <img src="../app/views/1.jpg" alt="animek" />
                     <div
                         class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
                         <p>Death Note</p>
@@ -364,7 +347,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
             <div class="pop hover:scale-105 border-none transition-all">
                 <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
                     href="../baca/index.html">
-                    <img src="../1.jpg" alt="animek" />
+                    <img src="../app/views/1.jpg" alt="animek" />
                     <div
                         class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
                         <p>Death Note</p>
@@ -381,7 +364,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
             <div class="pop hover:scale-105 border-none transition-all">
                 <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
                     href="../baca/index.html">
-                    <img src="../1.jpg" alt="animek" />
+                    <img src="../app/views/1.jpg" alt="animek" />
                     <div
                         class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
                         <p>Death Note</p>
@@ -398,7 +381,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
             <div class="pop hover:scale-105 border-none transition-all">
                 <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
                     href="../baca/index.html">
-                    <img src="../1.jpg" alt="animek" />
+                    <img src="../app/views/1.jpg" alt="animek" />
                     <div
                         class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
                         <p>Death Note</p>
@@ -415,7 +398,7 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
             <div class="pop hover:scale-105 border-none transition-all">
                 <a class="flex flex-col justify-center relative overflow-hidden group border-b-2 border-slate-700"
                     href="../baca/index.html">
-                    <img src="../1.jpg" alt="animek" />
+                    <img src="../app/views/1.jpg" alt="animek" />
                     <div
                         class="status pb-4 pt-4 bg-gradient-to-t from-black via-black to-transparent absolute bottom-0 left-0 right-0 text-center py-2 translate-y-2 transition group-hover:translate-y-0">
                         <p>Death Note</p>
@@ -439,7 +422,9 @@ Sans One, sans-serif; font-weight: 400; font-style: normal; font-size: x-small;"
     <!--Ini untuk footer-->
 
 
-    <script defer src="../../../public/js/manga.js"></script>
+    <script defer src="../public/js/manga.js"></script>
+    <script src="../public/js/script.js"></script>
+     <script defer src="../public/js/navbar.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script>feather.replace()</script>
