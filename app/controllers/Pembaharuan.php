@@ -1,9 +1,10 @@
 <?php
 
-class Mode_baca extends Controller{
+class pembaharuan extends Controller {
     public function index(){
         $this->view('templates/header');
-        $this->view('mode_baca/index');
+        $this->view('templates/navbar');
+        $this->view('home/index');
         $this->view('templates/footer');
     }
 }

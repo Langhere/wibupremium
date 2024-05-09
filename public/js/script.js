@@ -1,4 +1,5 @@
-var swiper = new Swiper(".mySwiper", {
+import Swiper from 'swiper'
+const swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 2,
   loop: true,

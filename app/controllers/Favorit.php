@@ -1,9 +1,9 @@
 <?php
 
-class Mode_baca extends Controller{
+class favorit extends Controller{
     public function index(){
         $this->view('templates/header');
-        $this->view('mode_baca/index');
+        $this->view('favorit/index');
         $this->view('templates/footer');
     }
 }
